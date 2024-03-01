@@ -17,7 +17,6 @@ public class Parte2Test {
 
     @Test
     public void testAgregarYSumarNumeros() {
-
         parte2.agregarNumero(5);
         parte2.agregarNumero(10);
         parte2.agregarNumero(3);
@@ -55,7 +54,6 @@ public class Parte2Test {
 
     @Test
     public void testAgregarYSumarNumerosConInicializacion() {
-
         parte2.agregarNumero(5);
         assertEquals(5, parte2.sumarNumeros());
 
